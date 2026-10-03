@@ -1,0 +1,38 @@
+# ---- OS / editor clutter ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+tmp/
+temp/
+
+# ---- Env & secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+
+# ---- Build output (common ecosystems) ----
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
